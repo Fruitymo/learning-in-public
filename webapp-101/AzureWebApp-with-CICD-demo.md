@@ -1,5 +1,10 @@
-## Step by step Code deployment done through CI/CD from GitHub to Azure
+# Step by step Code deployment done through CI/CD from GitHub to Azure
 
+## What you will need
+- [x] Microsoft Azure Subscription [(create one for free)](https://azure.microsoft.com/en-us/free/)
+- [x] GitHub account [(join GitHub for free)](https://github.com/join)
+
+## Let's get started
 - navigate to Azure dot microsoft dot com
 - Log in using your live/microsoft/gitHub ID
 - navigate to the quickstart centre wizard
@@ -7,14 +12,12 @@
 
 Out of the box you have an option to build and host a web app with azure web apps or create CI/CS pipeline with Azure DevOps.
 
-If you or your team are already using Azure DevOps for your build pipeline, can use this option.
+If you or your team are already using ```Azure DevOps``` for your build pipeline, can use this option.
 
-If you're like me and use GitHub for almost everything, I'm here to show you are you can use GitHub actions to integrate a CI/CD pipeline for your azure hosted webapp
+If you're like me and you use GitHub for almost everything, I'm here to show you how you can use ```GitHub actions``` to integrate a CI/CD pipeline for your azure hosted webapp.
 
-Let's get started
-
-- Click on Build and host a web app with Azure Web Apps
-You'll notice you can run webapps on any framework namely dotNet, NodeJS, PHP, Java, Python, .NET Core, HTML5 or Ruby without the hassle of managing the infrastructure.
+- Click on the ```Build and host a web app with Azure Web Apps``` option
+You'll notice you can build and run a webapp on any framework namely dotNet, NodeJS, PHP, Java, Python, .NET Core, HTML5 or Ruby without the hassle of managing the infrastructure.
 
 - Choose your subscription, this works for both free tier Azure subscriptions and paid subscriptions.
 - Choose a resource group, if you do not have one you can create one, as best practice, I always append my resource group names with underscore rg
@@ -43,5 +46,5 @@ Please note:
 - once status changes to done (green), go to your URL and refresh
 - Woooohoooo your webapp is now available online 😊
 
-### Contact
+## Contact
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/LeboMadise.svg?style=social&label=Follow%20%40LeboMadise)](https://twitter.com/LeboMadise)
